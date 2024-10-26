@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.e8f21442.css",
+    "main.js": "/Portfolio/static/js/main.a6368685.js",
+    "static/media/capture15pr8ph2.png": "/Portfolio/static/media/capture15pr8ph2.a5ab93ae5bef0282fb07.png",
+    "static/media/login.png": "/Portfolio/static/media/login.ca5e5a3d1d7ebfd07e35.png",
+    "static/media/capture13priph2.png": "/Portfolio/static/media/capture13priph2.d4baa662e9128187d761.png",
+    "static/media/Souhir.png": "/Portfolio/static/media/Souhir.820089a28b5718ca7a62.png",
+    "static/media/CV_Elfazzaini_Souhir.pdf": "/Portfolio/static/media/CV_Elfazzaini_Souhir.54cc3b1c697985750e04.pdf",
+    "static/media/Afficer liste des offres (4).png": "/Portfolio/static/media/Afficer liste des offres (4).1b1d4f96bc45ac0c3f62.png",
+    "static/media/capture6Priph2.png": "/Portfolio/static/media/capture6Priph2.78ae8f2ac0644a55e7ed.png",
+    "static/media/Screenshot 2024-08-12 180418.png": "/Portfolio/static/media/Screenshot 2024-08-12 180418.287777d464fbe2b15b94.png",
+    "static/media/Ajouter une vente (4).png": "/Portfolio/static/media/Ajouter une vente (4).3819d23333173faa7e36.png",
+    "static/media/capture7Priph2.png": "/Portfolio/static/media/capture7Priph2.5059270d948c640806f4.png",
+    "static/media/capture8Priph2.png": "/Portfolio/static/media/capture8Priph2.3c33f58b83adc8361d42.png",
+    "static/media/img.png": "/Portfolio/static/media/img.d378f37b9300a6f965c8.png",
+    "static/media/Screenshot 2024-08-12 000519.png": "/Portfolio/static/media/Screenshot 2024-08-12 000519.a7f1d8698478d4bd0bd3.png",
+    "static/media/Screenshot 2024-08-12 000505.png": "/Portfolio/static/media/Screenshot 2024-08-12 000505.b786376950a8ee52d17b.png",
+    "static/media/Screenshot 2024-08-12 000601.png": "/Portfolio/static/media/Screenshot 2024-08-12 000601.e9a7188c260f79ab59af.png",
+    "static/media/logo.png": "/Portfolio/static/media/logo.148c891b63643d7fe4ff.png",
+    "static/media/capture.png": "/Portfolio/static/media/capture.f899cfb18f5a9c6b052f.png",
+    "static/media/isims.png": "/Portfolio/static/media/isims.fc1756564da5910ce4cb.png",
+    "static/media/capture1.png": "/Portfolio/static/media/capture1.d7e051c5496a9df6692f.png",
+    "static/media/capture3.png": "/Portfolio/static/media/capture3.0d9bf6234973086ae3e9.png",
+    "static/media/capture2.png": "/Portfolio/static/media/capture2.283ce2e8057b80958818.png",
+    "static/media/instagramIcon.png": "/Portfolio/static/media/instagramIcon.887399317580dfffaa7c.png",
+    "static/media/Facebookicon.png": "/Portfolio/static/media/Facebookicon.98e83ef2883bcab88d4a.png",
+    "static/media/twitteIcon.png": "/Portfolio/static/media/twitteIcon.f6fe16588f8c82ba6204.png",
+    "index.html": "/Portfolio/index.html",
+    "main.e8f21442.css.map": "/Portfolio/static/css/main.e8f21442.css.map",
+    "main.a6368685.js.map": "/Portfolio/static/js/main.a6368685.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8f21442.css",
+    "static/js/main.a6368685.js"
+  ]
+}
