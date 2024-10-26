@@ -1,0 +1,99 @@
+#skills {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.skillTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.skillDesc {
+    font-weight: 300;
+    max-width: 51rem;
+    font-size: 1rem;
+    padding: 0 2rem;
+}
+
+.skillBars {
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+
+.skillBar {
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(50, 50, 50);
+    width: 600px; /* Fixed width */
+    height: 100px; /* Fixed height */
+    align-items: center; /* Vertically centers content */
+}
+
+.skillBarImg {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 2rem;
+}
+
+.skillBarText {
+    flex-grow: 1; /* Takes the remaining width */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically centers text */
+}
+
+.skillBarText > h2 {
+    font-size: 1.2rem; /* Consistent font size */
+    margin: 0; /* No margin for uniform alignment */
+    text-align: left; /* Left-aligned for consistency */
+}
+
+.skillBarText > p {
+    font-size: 1rem;
+    font-weight: 200;
+    margin-top: 0.5rem; /* Adds some spacing between title and paragraph */
+}
+
+@media screen and (max-width: 720px) {
+    .skillBar {
+        width: 90%; /* Reduce width for smaller screens */
+    }
+
+    .skillBarText > p {
+        font-size: 2vw; /* Responsive paragraph size */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .skillBar {
+        width: 100%; /* Full width on very small screens */
+    }
+
+    .skillBarText > h2 {
+        font-size: 3vw; /* Adjust font size for small screens */
+        text-align: center; /* Center align titles on small screens */
+    }
+
+    .skillBarText > p {
+        font-size: 3vw; /* Responsive paragraph size for small screens */
+    }
+
+    .skillBarImg {
+        height: 2.25rem;
+        width: 2.25rem; /* Adjust image size */
+    }
+}

@@ -1,0 +1,170 @@
+#works {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-top: 0;
+}
+
+.projects-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.project-section {
+    flex: 0 1 450px;
+    max-width: 450px;
+    position: relative;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.slide-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border: 4px solid #333;
+}
+
+.image-frame {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.square-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.workTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.project-description {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Modal Styles */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: transparent;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.modal-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 35px;
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+.modal-image {
+    max-width: 80%;
+    height: auto;
+}
+.close-button {
+    background-color: transparent; /* Red background for the close button */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 10px 15px; /* Some padding */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: 20px; /* Space above the button */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.close-button:hover {
+    background-color: white; /* Darker red on hover */
+}
+.project-buttons {
+    display: flex; /* Utilisez flexbox pour l'alignement */
+    align-items: center; /* Aligne les éléments verticalement */
+    margin-top: 10px; /* Espacement au-dessus des boutons */
+}
+
+.icon-button {
+    background-color: transparent; /* Couleur de fond transparente */
+    border: none; /* Pas de bordure */
+    padding: 8px; /* Espacement intérieur */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Changer le curseur pour indiquer que c'est cliquable */
+    transition: background-color 0.3s; /* Animation pour le changement de couleur */
+    color: white; /* Couleur du texte et des icônes */
+    margin-left: 100px; /* Espacement entre les boutons */
+    margin-right: 4px; /* Espacement entre les boutons */
+}
+
+.icon-button:last-child {
+    margin-right: 0; /* Supprimez la marge à droite pour le dernier bouton */
+}
+
+.icon-button:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Changer la couleur au survol */
+}
+
+.github-button {
+    color: white; /* Couleur blanche pour l'icône */
+    background-color: transparent;
+    border: none;
+    padding: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.github-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
