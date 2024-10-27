@@ -6,118 +6,64 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 3rem;
     margin: 0 auto;
-    padding: 6rem;
-    gap: 3rem;
-}
-
-.experienceTitle {
-    font-size: 3rem;
-    font-weight: 700;
-}
-
-.experienceDesc {
-    font-size: 1.3rem;
-    max-width: 60rem;
-    margin: 0 auto 2.5rem;
-}
-
-/* Tree Structure */
-.experienceTree {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
-
-/* Row Styles */
-.experienceRow {
-    display: flex;
-    justify-content: space-around; /* Distributes leaves evenly in the row */
-    width: 100%;
+    padding: 3rem 1rem; /* Adjusted padding for smaller screens */
     gap: 2rem;
 }
 
-/* Leaf Styles */
-.experienceLeaf {
-    flex: 1 1 calc(20% - 1.5rem); /* Réduction de la largeur des feuilles */
-    max-width: 100%;
-    background: rgb(50, 50, 50);
-    border-radius: 8px;
-    padding: 1.5rem; /* Réduction de la taille du padding pour un design plus compact */
-    color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    opacity: 0; /* Opacité initiale pour l'animation */
-    transform: translateX(20px); /* Position de départ pour l'animation */
-    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
-    border: transparent;
-}
-
-/* Active class for scroll animation */
-.experienceLeaf.active {
-    opacity: 1;
-    transform: translateX(0);
-}
-
-/* Leaf Content */
-.leafContent h2 {
-    font-size: 1.8rem;
-    margin-bottom: 0.5rem;
-}
-
-.leafContent p {
-    font-size: 1.1rem;
-    line-height: 1.6;
+.educationTitle {
+    font-size: 1.8rem; /* Initial font size */
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1.5rem;
 }
 
 /* Responsive Styles */
 @media screen and (max-width: 720px) {
-    .experienceDesc {
-        padding: 0 1rem;
+    #education {
+        width: 90%;
+        padding: 2rem 1rem;
     }
-    .experienceTitle {
-        font-size: 2.5rem;
+
+    .educationTitle {
+        font-size: 2rem;
     }
+}
+
+@media screen and (max-width: 480px) {
+    #education {
+        width: 95%;
+        padding: 1.5rem 1rem;
+    }
+
+    .educationTitle {
+        font-size: 1.8rem;
+        line-height: 1.2;
+    }
+
     .experienceRow {
-        flex-direction: column; /* Stack leaves vertically on smaller screens */
+        flex-direction: column;
         gap: 1rem;
     }
+
     .experienceLeaf {
         width: 100%;
-        max-width: 100%;
+        padding: 1rem;
     }
-    .leafContent h2 {
-        font-size: 1.5rem;
-    }
-}
-.imageAndTitle {
-    display: flex;
-    align-items: center; /* Vertically align items */
-    gap: 1rem; /* Space between the image and heading */
-}
 
+    .leafContent h2 {
+        font-size: 1.7rem;
+    }
+}
 .imageAndTitle img {
-    width: 50px; /* Adjust size as needed */
+    width: 80px; /* Default size */
     height: auto;
-    border-radius: 4px; /* Optional: add rounded corners */
+    border-radius: 4px;
 }
 
-.imageAndTitle h2 {
-    font-size: 1.3rem;
-    margin: 0; /* Remove default margin */
-}
-
-
-@media screen and (max-width: 468px) {
-    #education
-    {
-        margin-top: 8rem;
-    }
-    .leafContent h2 {
-        font-size: 1.4rem;
-    }
-    .leafContent p {
-        font-size: 1rem;
+@media screen and (max-width: 480px) {
+    .imageAndTitle img {
+        width: 30px; /* Smaller size for narrow screens */
     }
 }
+

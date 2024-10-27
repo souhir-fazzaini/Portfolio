@@ -23,13 +23,16 @@ const Works = () => {
     const projects = [
 
         {
-            images: [Image3, Image4,csfag3,csfag4,csfag5], // Images of the second project
-            description: "Training Management: ",
-            videoLink: "https://drive.google.com/file/d/1JQwJ_PReqEmzXtlgJXFDc6PrWLKyPCyk/view?usp=sharing", // Replace with your video link
+            images: [Image3, Image4, csfag3, csfag4, csfag5], // Images of the second project
+            description: "Training Management:",
+            additionalDescription: "This project focuses on managing training sessions efficiently, allowing users to schedule, track attendance, and generate certificates for participants. The application enhances operational efficiency and provides a user-friendly interface.",
+            videoLink: "https://drive.google.com/file/d/1JQwJ_PReqEmzXtlgJXFDc6PrWLKyPCyk/view?usp=sharing" // Replace with your video link
         },
+
         {
             images: [Image5, Image6, Arru3, Arru4, Arru5, Arru6], // Images of the third project
             description: "Priphiq2",
+            additionalDescription: "Integrated geolocation services for managing and visualizing projects, improving tracking accuracy and enabling real-time updates for 100+ projects. Built Laravel modules for project and user management, improving efficiency for many users and projects.",
             githubLink: "https://github.com/souhir-fazzaini/PROJECT-MANAGEMENT" // Replace with your GitHub link
         },
         {
@@ -79,6 +82,7 @@ const Works = () => {
                         </div>
                         <div className="project-description">
                             <p>{project.description}</p>
+                            <p>{project.additionalDescription}</p>
                             <div className="project-buttons">
                                 { index===0 ? ( // Si c'est le troisième projet (index 2)
                                     <a href={project.videoLink} target="_blank" rel="noopener noreferrer"

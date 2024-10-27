@@ -46,14 +46,22 @@ padding: 1rem;
 
 
 }
-.submitBtn{
+.submitBtn {
     background: white;
     border: none;
     border-radius: 0.5rem;
-    margin: 2rem;
-    padding: 0.75rem 3.5rem;
-
+    margin: 1rem; /* Reduced margin */
+    padding: 0.5rem 2rem; /* Reduced padding for a smaller button */
+    font-size: 0.9rem; /* Optional: slightly smaller font */
 }
+
+@media screen and (max-width: 759px) {
+    .submitBtn {
+        padding: 0.4rem 1.5rem; /* Further reduce padding on smaller screens */
+        font-size: 0.8rem; /* Decrease font size */
+    }
+}
+
 .links
 {
     display: flex;

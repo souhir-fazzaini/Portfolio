@@ -24,7 +24,7 @@ const Education = () => {
 
     return (
         <section id="education">
-            <span className="experienceTitle">Education</span>
+            <span className="educationTitle">Education</span>
             <div className="experienceTree">
                 <div className="experienceRow">
                     <div className="experienceLeaf">

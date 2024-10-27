@@ -38,12 +38,6 @@ const Contact = () => { // Changed from 'contact' to 'Contact'
                     <input type="email" className="email" placeholder="Your Email" name="your_email"/>
                     <textarea className="msg" name="message" rows="5" placeholder="Your Message"></textarea>
                     <button type="submit" value="send" className="submitBtn">Submit</button>
-                    <div className="links">
-                        <img src={FacebookIcon} alt="Facebook" className="link"/>
-                        <img src={twitterIcon} alt="Twitter" className="link"/>
-                        <img src={instagramIcon} alt="Instagram" className="link"/>
-                        <img src={youtubeIcon} alt="YouTube" className="link"/>
-                    </div>
                 </form>
             </div>
         </section>
