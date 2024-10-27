@@ -24,9 +24,6 @@ const Experience = () => {
     return (
         <section id="experience">
             <span className="experienceTitle">Experiences</span>
-            <span className="experienceDesc">
-                As a software development engineer, I am seeking a challenging opportunity to apply my skills in a professional environment.
-            </span>
             <div className="experienceTree">
                 <div className="experienceRow">
                     <div className="experienceLeaf">

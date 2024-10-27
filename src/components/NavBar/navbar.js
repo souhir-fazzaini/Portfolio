@@ -49,35 +49,26 @@ const Navbar = () => {
                           className="desktopMenuListItem">
                         Home
                     </Link>
-                    <Link activeClass="active" to="about" spy={true} smooth={true} offset={-100} duration={500}
-                          className="desktopMenuListItem">
-                        About
-                    </Link>
                     <Link activeClass="active" to="skills" spy={true} smooth={true} offset={-100} duration={500}
                           className="desktopMenuListItem">
-                        Skills
+                        About
                     </Link>
                     <Link activeClass="active" to="education" spy={true} smooth={true} offset={-100} duration={500}
                           className="desktopMenuListItem">
                         Education
                     </Link>
-                    <Link activeClass="active" to="works" spy={true} smooth={true} offset={-100} duration={500}
+                    <Link activeClass="active" to="experience" spy={true} smooth={true} offset={-100} duration={500}
                           className="desktopMenuListItem">
                         Experiences
                     </Link>
-
-
                     <Link activeClass="active" to="works" spy={true} smooth={true} offset={-100} duration={500}
                           className="desktopMenuListItem">
                         Portfolio
                     </Link>
-                    <button className="desktopMenubtn" onClick={() => {
-                        document.getElementById('contactPage').scrollIntoView({behavior: 'smooth'})
-                    }}>
-                        <img src={contactImg} alt="" className="desktopMenImg"/>
-                        <p style={{marginRight: '2rem'}}>Contact Me</p> {/* Inline style */}
-
-                    </button>
+                    <Link activeClass="active" to="contactPage" spy={true} smooth={true} offset={-100} duration={500}
+                          className="desktopMenuListItem">
+                        Contact
+                    </Link>
                 </div>
             </nav>
 
