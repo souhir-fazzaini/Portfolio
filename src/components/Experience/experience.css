@@ -82,31 +82,61 @@
 }
 
 /* Responsive Styles */
-@media screen and (max-width: 720px) {
-    .experienceDesc {
-        padding: 0 1rem;
+@media screen and (max-width: 1024px) {
+    #experience {
+        width: 90%;
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column; /* Ensure stacking in smaller screens */
     }
+
+    .experienceTitle {
+        font-size: 2.8rem;
+        text-align: center; /* Center align title */
+        margin-bottom: 1rem; /* Add space below title */
+    }
+
+    .experienceDesc {
+        font-size: 1.2rem;
+        max-width: 50rem;
+        margin: 0 auto 2rem; /* Center align and add margin */
+        text-align: center; /* Center align description */
+    }
+}
+
+@media screen and (max-width: 720px) {
+    #experience {
+        flex-direction: column;
+    }
+
     .experienceTitle {
         font-size: 2.5rem;
+        margin-bottom: 1rem;
+        text-align: center;
     }
-    .experienceRow {
-        flex-direction: column; /* Stack leaves vertically on smaller screens */
-        gap: 1rem;
-    }
-    .experienceLeaf {
-        width: 100%;
-        max-width: 100%;
-    }
-    .leafContent h2 {
-        font-size: 1.5rem;
+
+    .experienceDesc {
+        font-size: 1.1rem;
+        padding: 0 1rem;
+        margin-bottom: 1.5rem;
+        text-align: center;
     }
 }
 
 @media screen and (max-width: 480px) {
-    .leafContent h2 {
-        font-size: 1.4rem;
+    #experience {
+        flex-direction: column;
     }
-    .leafContent p {
-        font-size: 0.5rem;
+
+    .experienceTitle {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .experienceDesc {
+        font-size: 1rem;
+        text-align: center;
     }
 }
+

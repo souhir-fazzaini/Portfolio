@@ -67,3 +67,26 @@ padding: 1rem;
     margin: 0 0.75rem;
 
 }
+@media (max-width: 1320px) {
+    #contactPage{
+        margin-top: 27rem;
+
+    }
+
+}
+@media screen and (max-width: 759px) {
+    #contactPage{
+        min-height: calc(100vh - 4rem);
+        width: 100vw;
+        max-width: 60rem;
+        margin:0 auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40rem;
+
+    }
+
+}
