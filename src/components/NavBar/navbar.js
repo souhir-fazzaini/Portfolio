@@ -71,6 +71,13 @@ const Navbar = () => {
                           className="desktopMenuListItem">
                         Portfolio
                     </Link>
+                    <button className="desktopMenubtn" onClick={() => {
+                        document.getElementById('contactPage').scrollIntoView({behavior: 'smooth'})
+                    }}>
+                        <img src={contactImg} alt="" className="desktopMenImg"/>
+                        <p style={{marginRight: '2rem'}}>Contact Me</p> {/* Inline style */}
+
+                    </button>
                 </div>
             </nav>
 

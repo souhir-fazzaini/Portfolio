@@ -110,7 +110,11 @@
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 468px) {
+    #education
+    {
+        margin-top: 8rem;
+    }
     .leafContent h2 {
         font-size: 1.4rem;
     }
