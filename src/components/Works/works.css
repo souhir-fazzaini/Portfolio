@@ -1,3 +1,4 @@
+/* Works Section */
 #works {
     max-width: 100vw;
     max-height: 70vh;
@@ -9,6 +10,13 @@
     margin-top: 8rem;
 }
 
+.workTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+}
+
+/* Projects Container */
 .projects-container {
     max-width: 100%;
     height: auto;
@@ -17,9 +25,9 @@
     justify-content: center;
     align-items: center;
     gap: 80px;
-
 }
 
+/* Individual Project Section */
 .project-section {
     flex: 0 1 400px;
     max-width: 400px;
@@ -31,6 +39,16 @@
     justify-content: space-between;
 }
 
+.project-description {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+    flex-grow: 1;
+}
+
+/* Slide Container */
 .slide-container {
     position: relative;
     width: 100%;
@@ -52,20 +70,6 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-.workTitle {
-    font-size: 3rem;
-    font-weight: 600;
-    padding-top: 3rem;
-    margin-bottom: 1.5rem;
-}
-
-.project-description {
-    width: 100%;
-    margin-top: 20px;
-    font-size: 18px;
-    text-align: center;
-    padding: 10px;
 }
 
 /* Modal Styles */
@@ -90,12 +94,19 @@
     text-align: center;
 }
 
-.close {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 24px;
+.close-button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
     cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.close-button:hover {
+    background-color: white;
 }
 
 .modal-image-container {
@@ -114,105 +125,69 @@
 }
 
 .modal-image {
-    max-width: 80%;
-    height: auto;
-}
-.close-button {
-    background-color: transparent; /* Red background for the close button */
-    color: white; /* White text */
-    border: none; /* No border */
-    padding: 10px 15px; /* Some padding */
-    font-size: 16px; /* Font size */
-    cursor: pointer; /* Pointer cursor on hover */
-    margin-top: 20px; /* Space above the button */
-    border-radius: 5px; /* Rounded corners */
+    max-width: 90vw;
+    max-height: 80vh;
 }
 
-.close-button:hover {
-    background-color: white; /* Darker red on hover */
-}
+/* Project Buttons */
 .project-buttons {
-    display: flex; /* Utilisez flexbox pour l'alignement */
-    align-items: center; /* Aligne les éléments verticalement */
-    margin-top: 10px; /* Espacement au-dessus des boutons */
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
 }
 
 .icon-button {
-    background-color: transparent; /* Couleur de fond transparente */
-    border: none; /* Pas de bordure */
-    padding: 8px; /* Espacement intérieur */
-    border-radius: 5px; /* Coins arrondis */
-    cursor: pointer; /* Changer le curseur pour indiquer que c'est cliquable */
-    transition: background-color 0.3s; /* Animation pour le changement de couleur */
-    color: white; /* Couleur du texte et des icônes */
-    margin-left: 100px; /* Espacement entre les boutons */
-    margin-right: 4px; /* Espacement entre les boutons */
-}
-
-.icon-button:last-child {
-    margin-right: 0; /* Supprimez la marge à droite pour le dernier bouton */
+    background-color: transparent;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: white;
+    margin-left: 100px;
+    margin-right: 4px;
 }
 
 .icon-button:hover {
-    background-color: rgba(255, 255, 255, 0.1); /* Changer la couleur au survol */
-}
-
-.github-button {
-    color: white; /* Couleur blanche pour l'icône */
-    background-color: transparent;
-    border: none;
-    padding: 4px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.github-button:hover {
     background-color: rgba(255, 255, 255, 0.1);
 }
+
+/* Responsive Design */
 @media (max-width: 1320px) {
-    /* Adjust the container and project sections */
     .projects-container {
-        gap: 60px; /* Reduces gap between projects */
+        gap: 60px;
     }
 
     .project-section {
-        flex: 0 1 350px; /* Reduces max width of each project */
-        max-width: 350px; /* Ensures each project takes up less space */
+        flex: 0 1 350px;
+        max-width: 350px;
     }
 
     .workTitle {
-        font-size: 2.5rem; /* Reduces font size for title */
+        font-size: 2.5rem;
         margin-bottom: 1rem;
     }
 
     .project-description {
-        font-size: 16px; /* Reduces font size for descriptions */
+        font-size: 16px;
         padding: 8px;
     }
 
     .slide-container {
-        height: 350px; /* Reduces image height */
+        height: 350px;
     }
 
     .icon-button {
-        margin-left: 50px; /* Decreases margin for tighter alignment */
+        margin-left: 50px;
     }
 
     .arrow-button {
-        font-size: 30px; /* Adjusts arrow size */
+        font-size: 30px;
     }
 }
-@media screen and (max-width: 1000px) {
-    #works{
-        max-width: 100vw;
-        max-height: 70vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0;
+
+@media (max-width: 1000px) {
+    #works {
         margin-top: 40rem;
     }
-
 }
-

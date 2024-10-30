@@ -17,6 +17,8 @@ import Arru6 from '../../assets/Arru/capture15pr8ph2.png' ;
 import Emanagement1 from '../../assets/employee management/capture1.png';
 import Emanagement2 from '../../assets/employee management/capture2.png';
 import Emanagement3 from '../../assets/employee management/capture3.png';
+import portfolio1 from '../../assets/portfolio/Screenshot 2024-10-30 215715.png';
+import portfolio2 from '../../assets/portfolio/Screenshot 2024-10-30 215750.png';
 import {FaGithub, FaImages, FaVideo} from "react-icons/fa"; // Import GitHub icon
 
 const Works = () => {
@@ -38,9 +40,14 @@ const Works = () => {
         {
             images: [Emanagement1, Emanagement2, Emanagement3], // Images of the third project
             description: "Employee Management",
+            additionalDescription: "The Employee Management System (EMS) is a web application that enables HR personnel to manage employee and department data efficiently. It allows users.",
             githubLink: "https://github.com/souhir-fazzaini/Employee-Management-System" // Replace with your GitHub link
         },
-
+        {
+            images: [portfolio1, portfolio2], // Images of the third project
+            description: "Portfolio",
+            githubLink: "https://github.com/souhir-fazzaini/Employee-Management-System" // Replace with your GitHub link
+        },
     ];
 
     const [currentProjectIndex, setCurrentProjectIndex] = useState(0); // State to track the current project index
@@ -82,9 +89,9 @@ const Works = () => {
                         </div>
                         <div className="project-description">
                             <p>{project.description}</p>
-                            <p>{project.additionalDescription}</p>
+                            <p style={{height: '100px', overflow: 'hidden'}}>{project.additionalDescription}</p>
                             <div className="project-buttons">
-                                { index===0 ? ( // Si c'est le troisième projet (index 2)
+                            { index===0 ? ( // Si c'est le troisième projet (index 2)
                                     <a href={project.videoLink} target="_blank" rel="noopener noreferrer"
                                        className="icon-button github-button">
                                         <FaVideo size={24}/> {/* Icône GitHub */}
