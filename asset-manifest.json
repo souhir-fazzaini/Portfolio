@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.981f2f38.css",
-    "main.js": "/Portfolio/static/js/main.05c9ef82.js",
+    "main.css": "/Portfolio/static/css/main.e617bb6e.css",
+    "main.js": "/Portfolio/static/js/main.5351ceb6.js",
     "static/media/capture15pr8ph2.png": "/Portfolio/static/media/capture15pr8ph2.a5ab93ae5bef0282fb07.png",
     "static/media/login.png": "/Portfolio/static/media/login.ca5e5a3d1d7ebfd07e35.png",
     "static/media/capture13priph2.png": "/Portfolio/static/media/capture13priph2.d4baa662e9128187d761.png",
+    "static/media/Screenshot 2024-10-30 215715.png": "/Portfolio/static/media/Screenshot 2024-10-30 215715.066be1e8683215fcc52e.png",
+    "static/media/Screenshot 2024-10-30 215750.png": "/Portfolio/static/media/Screenshot 2024-10-30 215750.0ff6b1ed8225a6ad2ab1.png",
     "static/media/Souhir.png": "/Portfolio/static/media/Souhir.820089a28b5718ca7a62.png",
     "static/media/CV_Elfazzaini_Souhir.pdf": "/Portfolio/static/media/CV_Elfazzaini_Souhir.54cc3b1c697985750e04.pdf",
     "static/media/Afficer liste des offres (4).png": "/Portfolio/static/media/Afficer liste des offres (4).1b1d4f96bc45ac0c3f62.png",
@@ -27,11 +29,11 @@
     "static/media/Facebookicon.png": "/Portfolio/static/media/Facebookicon.98e83ef2883bcab88d4a.png",
     "static/media/twitteIcon.png": "/Portfolio/static/media/twitteIcon.f6fe16588f8c82ba6204.png",
     "index.html": "/Portfolio/index.html",
-    "main.981f2f38.css.map": "/Portfolio/static/css/main.981f2f38.css.map",
-    "main.05c9ef82.js.map": "/Portfolio/static/js/main.05c9ef82.js.map"
+    "main.e617bb6e.css.map": "/Portfolio/static/css/main.e617bb6e.css.map",
+    "main.5351ceb6.js.map": "/Portfolio/static/js/main.5351ceb6.js.map"
   },
   "entrypoints": [
-    "static/css/main.981f2f38.css",
-    "static/js/main.05c9ef82.js"
+    "static/css/main.e617bb6e.css",
+    "static/js/main.5351ceb6.js"
   ]
 }
