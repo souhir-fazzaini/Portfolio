@@ -43,11 +43,7 @@ const Works = () => {
             additionalDescription: "The Employee Management System (EMS) is a web application that enables HR personnel to manage employee and department data efficiently. It allows users.",
             githubLink: "https://github.com/souhir-fazzaini/Employee-Management-System" // Replace with your GitHub link
         },
-        {
-            images: [portfolio1, portfolio2], // Images of the third project
-            description: "Portfolio",
-            githubLink: "https://github.com/souhir-fazzaini/Employee-Management-System" // Replace with your GitHub link
-        },
+
     ];
 
     const [currentProjectIndex, setCurrentProjectIndex] = useState(0); // State to track the current project index
