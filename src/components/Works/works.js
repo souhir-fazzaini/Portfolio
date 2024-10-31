@@ -40,7 +40,7 @@ const Works = () => {
         {
             images: [Emanagement1, Emanagement2, Emanagement3], // Images of the third project
             description: "Employee Management",
-            additionalDescription: "The Employee Management System (EMS) is a web application that enables HR personnel to manage employee and department data efficiently. It allows users.",
+            additionalDescription: "The Employee Management System (EMS) is a web application that enables HR personnel to manage employee and department data efficiently.",
             githubLink: "https://github.com/souhir-fazzaini/Employee-Management-System" // Replace with your GitHub link
         },
 
