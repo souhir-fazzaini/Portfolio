@@ -1,6 +1,5 @@
 import React from 'react';
 import './intro.css';
-import bg from '../../assets/Souhir.png'
 import btnImg from '../../assets/hireimg.png'
 import {Link} from "react-scroll";
 import filePath from '../../assets/CV_Elfazzaini_Souhir.pdf'
@@ -16,7 +15,6 @@ const Intro = () => {
                         <button className="btn">Download CV</button>
                     </a>
                 </div>
-                <img src={bg} alt="Profile" className="bg"/>
             </section>
         </div>
     );
