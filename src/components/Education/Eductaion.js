@@ -31,11 +31,11 @@ const Education = () => {
                         <div className="leafContent">
                             <div className="imageAndTitle">
                                 <img src={isimsLogo} alt="Bachelor's Degree in Computer Science Engineering"/>
-                                <h2>Bachelor’s Degree in Management Computer Science</h2>
+                                <h2>Computer science engineer</h2>
 
                             </div>
-                            <h4>Higher School of Digital Economy of Manouba</h4> {/* Changed h3 to h1 */}
-                            <h4>2018 - 2021</h4>
+                            <h4>Higher Institute of Computer Science and Multimedia of Sfax</h4> {/* Changed h3 to h1 */}
+                            <h4>2021 - 2024</h4>
                         </div>
 
 
