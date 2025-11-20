@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.1a285cf0.css",
-    "main.js": "/Portfolio/static/js/main.ad99ac65.js",
+    "main.js": "/Portfolio/static/js/main.0c79a61c.js",
     "static/media/capture15pr8ph2.png": "/Portfolio/static/media/capture15pr8ph2.a5ab93ae5bef0282fb07.png",
     "static/media/login.png": "/Portfolio/static/media/login.ca5e5a3d1d7ebfd07e35.png",
     "static/media/capture13priph2.png": "/Portfolio/static/media/capture13priph2.d4baa662e9128187d761.png",
+    "static/media/CV_Elfazzaini_Souhir.pdf": "/Portfolio/static/media/CV_Elfazzaini_Souhir.6e986c40799f48ef4afc.pdf",
     "static/media/expenses.png": "/Portfolio/static/media/expenses.f87403722b86915118ad.png",
-    "static/media/CV_Elfazzaini_Souhir.pdf": "/Portfolio/static/media/CV_Elfazzaini_Souhir.497b4e56951886994a9c.pdf",
     "static/media/Afficer liste des offres (4).png": "/Portfolio/static/media/Afficer liste des offres (4).1b1d4f96bc45ac0c3f62.png",
     "static/media/capture6Priph2.png": "/Portfolio/static/media/capture6Priph2.78ae8f2ac0644a55e7ed.png",
     "static/media/chat3.png": "/Portfolio/static/media/chat3.973048022140f83dfef5.png",
@@ -33,10 +33,10 @@
     "static/media/twitteIcon.png": "/Portfolio/static/media/twitteIcon.f6fe16588f8c82ba6204.png",
     "index.html": "/Portfolio/index.html",
     "main.1a285cf0.css.map": "/Portfolio/static/css/main.1a285cf0.css.map",
-    "main.ad99ac65.js.map": "/Portfolio/static/js/main.ad99ac65.js.map"
+    "main.0c79a61c.js.map": "/Portfolio/static/js/main.0c79a61c.js.map"
   },
   "entrypoints": [
     "static/css/main.1a285cf0.css",
-    "static/js/main.ad99ac65.js"
+    "static/js/main.0c79a61c.js"
   ]
 }
