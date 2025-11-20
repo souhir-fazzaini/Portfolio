@@ -50,7 +50,7 @@ const Works = () => {
         {
             images: [addexpense, expense], // Images of the third project
             description: "AI-Powered Expense Management Application",
-            additionalDescription: "This project is an AI-powered expense management platform designed to automate expense tracking, categorize spending, and provide real-time insights. It enhances financial visibility, reduces manual entry, and helps employees and managers manage expenses efficiently with smart automation and intuitive dashboards.",
+            additionalDescription:"Plateforme de gestion des dépenses alimentée par l'IA qui automatise le suivi et la catégorisation des frais. Fournit des insights financiers en temps réel et des tableaux de bord intuitifs pour optimiser la gestion des dépenses.",
             githubLink: "https://github.com/souhir-fazzaini/expense-predictor" // Replace with your GitHub link
         },
         {
