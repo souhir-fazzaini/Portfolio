@@ -1,38 +1,42 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.e617bb6e.css",
-    "main.js": "/Portfolio/static/js/main.3e95c27e.js",
+    "main.css": "/Portfolio/static/css/main.1a285cf0.css",
+    "main.js": "/Portfolio/static/js/main.deec950c.js",
     "static/media/capture15pr8ph2.png": "/Portfolio/static/media/capture15pr8ph2.a5ab93ae5bef0282fb07.png",
     "static/media/login.png": "/Portfolio/static/media/login.ca5e5a3d1d7ebfd07e35.png",
     "static/media/capture13priph2.png": "/Portfolio/static/media/capture13priph2.d4baa662e9128187d761.png",
-    "static/media/Screenshot 2024-10-30 215715.png": "/Portfolio/static/media/Screenshot 2024-10-30 215715.066be1e8683215fcc52e.png",
+    "static/media/expenses.png": "/Portfolio/static/media/expenses.f87403722b86915118ad.png",
     "static/media/CV_Elfazzaini_Souhir.pdf": "/Portfolio/static/media/CV_Elfazzaini_Souhir.497b4e56951886994a9c.pdf",
-    "static/media/Screenshot 2024-10-30 215750.png": "/Portfolio/static/media/Screenshot 2024-10-30 215750.0ff6b1ed8225a6ad2ab1.png",
     "static/media/Afficer liste des offres (4).png": "/Portfolio/static/media/Afficer liste des offres (4).1b1d4f96bc45ac0c3f62.png",
     "static/media/capture6Priph2.png": "/Portfolio/static/media/capture6Priph2.78ae8f2ac0644a55e7ed.png",
+    "static/media/chat3.png": "/Portfolio/static/media/chat3.973048022140f83dfef5.png",
     "static/media/Screenshot 2024-08-12 180418.png": "/Portfolio/static/media/Screenshot 2024-08-12 180418.287777d464fbe2b15b94.png",
     "static/media/Ajouter une vente (4).png": "/Portfolio/static/media/Ajouter une vente (4).3819d23333173faa7e36.png",
     "static/media/capture7Priph2.png": "/Portfolio/static/media/capture7Priph2.5059270d948c640806f4.png",
     "static/media/capture8Priph2.png": "/Portfolio/static/media/capture8Priph2.3c33f58b83adc8361d42.png",
     "static/media/img.png": "/Portfolio/static/media/img.d378f37b9300a6f965c8.png",
+    "static/media/chat1.png": "/Portfolio/static/media/chat1.a5df26ed539b163e026a.png",
     "static/media/Screenshot 2024-08-12 000519.png": "/Portfolio/static/media/Screenshot 2024-08-12 000519.a7f1d8698478d4bd0bd3.png",
     "static/media/Screenshot 2024-08-12 000505.png": "/Portfolio/static/media/Screenshot 2024-08-12 000505.b786376950a8ee52d17b.png",
     "static/media/Screenshot 2024-08-12 000601.png": "/Portfolio/static/media/Screenshot 2024-08-12 000601.e9a7188c260f79ab59af.png",
     "static/media/logo.png": "/Portfolio/static/media/logo.148c891b63643d7fe4ff.png",
+    "static/media/chat2.png": "/Portfolio/static/media/chat2.4c14fc0b3495e5d7b071.png",
     "static/media/capture.png": "/Portfolio/static/media/capture.f899cfb18f5a9c6b052f.png",
     "static/media/isims.png": "/Portfolio/static/media/isims.fc1756564da5910ce4cb.png",
+    "static/media/chat4.png": "/Portfolio/static/media/chat4.7e11decfa12324827a0b.png",
     "static/media/capture1.png": "/Portfolio/static/media/capture1.d7e051c5496a9df6692f.png",
     "static/media/capture3.png": "/Portfolio/static/media/capture3.0d9bf6234973086ae3e9.png",
+    "static/media/add_expense.png": "/Portfolio/static/media/add_expense.8c63ed999239da951efb.png",
     "static/media/capture2.png": "/Portfolio/static/media/capture2.283ce2e8057b80958818.png",
     "static/media/instagramIcon.png": "/Portfolio/static/media/instagramIcon.887399317580dfffaa7c.png",
     "static/media/Facebookicon.png": "/Portfolio/static/media/Facebookicon.98e83ef2883bcab88d4a.png",
     "static/media/twitteIcon.png": "/Portfolio/static/media/twitteIcon.f6fe16588f8c82ba6204.png",
     "index.html": "/Portfolio/index.html",
-    "main.e617bb6e.css.map": "/Portfolio/static/css/main.e617bb6e.css.map",
-    "main.3e95c27e.js.map": "/Portfolio/static/js/main.3e95c27e.js.map"
+    "main.1a285cf0.css.map": "/Portfolio/static/css/main.1a285cf0.css.map",
+    "main.deec950c.js.map": "/Portfolio/static/js/main.deec950c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e617bb6e.css",
-    "static/js/main.3e95c27e.js"
+    "static/css/main.1a285cf0.css",
+    "static/js/main.deec950c.js"
   ]
 }
