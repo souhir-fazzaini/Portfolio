@@ -17,8 +17,12 @@ import Arru6 from '../../assets/Arru/capture15pr8ph2.png' ;
 import Emanagement1 from '../../assets/employee management/capture1.png';
 import Emanagement2 from '../../assets/employee management/capture2.png';
 import Emanagement3 from '../../assets/employee management/capture3.png';
-import portfolio1 from '../../assets/portfolio/Screenshot 2024-10-30 215715.png';
-import portfolio2 from '../../assets/portfolio/Screenshot 2024-10-30 215750.png';
+import addexpense from '../../assets/exepense/add_expense.png';
+import expense from '../../assets/exepense/expenses.png';
+import chat1 from '../../assets/ia/chat1.png';
+import chat2 from '../../assets/ia/chat2.png';
+import chat3 from '../../assets/ia/chat3.png';
+import chat4 from '../../assets/ia/chat4.png';
 import {FaGithub, FaImages, FaVideo} from "react-icons/fa"; // Import GitHub icon
 
 const Works = () => {
@@ -42,6 +46,17 @@ const Works = () => {
             description: "Employee Management",
             additionalDescription: "The Employee Management System (EMS) is a web application that enables HR personnel to manage employee and department data efficiently.",
             githubLink: "https://github.com/souhir-fazzaini/Employee-Management-System" // Replace with your GitHub link
+        },
+        {
+            images: [addexpense, expense], // Images of the third project
+            description: "AI-Powered Expense Management Application",
+            additionalDescription: "This project is an AI-powered expense management platform designed to automate expense tracking, categorize spending, and provide real-time insights. It enhances financial visibility, reduces manual entry, and helps employees and managers manage expenses efficiently with smart automation and intuitive dashboards.",
+            githubLink: "https://github.com/souhir-fazzaini/expense-predictor" // Replace with your GitHub link
+        },
+        {
+            images: [chat1, chat2, chat3, chat4], // Images of the third project
+            description: "Developed a web application for AI-powered chat and user management with conversation history",
+            githubLink: "https://github.com/souhir-fazzaini/expense-predictor" // Replace with your GitHub link
         },
 
     ];
