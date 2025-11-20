@@ -56,7 +56,7 @@ const Works = () => {
         {
             images: [chat1, chat2, chat3, chat4], // Images of the third project
             description: "Developed a web application for AI-powered chat and user management with conversation history",
-            githubLink: "https://github.com/souhir-fazzaini/expense-predictor" // Replace with your GitHub link
+            githubLink: "https://github.com/souhir-fazzaini/Ollama_front" // Replace with your GitHub link
         },
 
     ];
