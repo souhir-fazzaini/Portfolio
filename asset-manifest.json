@@ -1,11 +1,10 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.1a285cf0.css",
-    "main.js": "/Portfolio/static/js/main.d99eb700.js",
+    "main.js": "/Portfolio/static/js/main.2d8e364f.js",
     "static/media/capture15pr8ph2.png": "/Portfolio/static/media/capture15pr8ph2.a5ab93ae5bef0282fb07.png",
     "static/media/login.png": "/Portfolio/static/media/login.ca5e5a3d1d7ebfd07e35.png",
     "static/media/capture13priph2.png": "/Portfolio/static/media/capture13priph2.d4baa662e9128187d761.png",
-    "static/media/CV_Elfazzaini_Souhir.pdf": "/Portfolio/static/media/CV_Elfazzaini_Souhir.6e986c40799f48ef4afc.pdf",
     "static/media/expenses.png": "/Portfolio/static/media/expenses.f87403722b86915118ad.png",
     "static/media/Afficer liste des offres (4).png": "/Portfolio/static/media/Afficer liste des offres (4).1b1d4f96bc45ac0c3f62.png",
     "static/media/capture6Priph2.png": "/Portfolio/static/media/capture6Priph2.78ae8f2ac0644a55e7ed.png",
@@ -13,6 +12,7 @@
     "static/media/smartService.png": "/Portfolio/static/media/smartService.44126c8eef89b7e36ec9.png",
     "static/media/Screenshot 2024-08-12 180418.png": "/Portfolio/static/media/Screenshot 2024-08-12 180418.287777d464fbe2b15b94.png",
     "static/media/Ajouter une vente (4).png": "/Portfolio/static/media/Ajouter une vente (4).3819d23333173faa7e36.png",
+    "static/media/Cv Fazzani Souhir.pdf": "/Portfolio/static/media/Cv Fazzani Souhir.ab102fd7772d42f2974e.pdf",
     "static/media/capture7Priph2.png": "/Portfolio/static/media/capture7Priph2.5059270d948c640806f4.png",
     "static/media/capture8Priph2.png": "/Portfolio/static/media/capture8Priph2.3c33f58b83adc8361d42.png",
     "static/media/img.png": "/Portfolio/static/media/img.d378f37b9300a6f965c8.png",
@@ -37,10 +37,10 @@
     "static/media/twitteIcon.png": "/Portfolio/static/media/twitteIcon.f6fe16588f8c82ba6204.png",
     "index.html": "/Portfolio/index.html",
     "main.1a285cf0.css.map": "/Portfolio/static/css/main.1a285cf0.css.map",
-    "main.d99eb700.js.map": "/Portfolio/static/js/main.d99eb700.js.map"
+    "main.2d8e364f.js.map": "/Portfolio/static/js/main.2d8e364f.js.map"
   },
   "entrypoints": [
     "static/css/main.1a285cf0.css",
-    "static/js/main.d99eb700.js"
+    "static/js/main.2d8e364f.js"
   ]
 }
