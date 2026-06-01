@@ -2,7 +2,7 @@ import React from 'react';
 import './intro.css';
 import btnImg from '../../assets/hireimg.png'
 import {Link} from "react-scroll";
-import filePath from '../../assets/CV_Elfazzaini_Souhir.pdf'
+import filePath from '../../assets/Cv Fazzani Souhir.pdf'
 const Intro = () => {
     return (
         <div>
