@@ -28,17 +28,54 @@ const Experience = () => {
                 <div className="experienceRow">
                     <div className="experienceLeaf">
                         <div className="leafContent">
-                            <h2>Software Engineering Internship: TUNEALGO</h2>
-                            <h4>JAN 2024 - JUL 2024</h4>
-                            <p>During this internship, I'm contributing to a mobile social networking app that allows users to share services and communicate easily. My work includes developing key features like profile creation, real-time messaging, and service posting, while using Spring Boot for the backend and Firebase for notifications. I'm also focused on creating a seamless cross-platform experience on Android and iOS with Ionic. This opportunity is enhancing my technical skills and knowledge of user-centered design.         </p>               </div>
+                            <h2>Software Engineer: Smart Quality Gate</h2>
+                            <h4>December 2024 - Present</h4>
+                            <p>Design and creation of a web-based project management platform, with the goal of
+                                consolidating and improving all phases of a project's lifecycle.
+                                <br/>
+                                - Creation of an efficient backend with Flask, which handles data processing, API
+                                management, and key functions, which helped reduce overall response time by 25%.
+                                <br/>
+                                - Implementation of advanced features for project management, sprint planning, release
+                                control, CI/CD pipeline management, as well as tracking contributions and hours worked,
+                                which led to a 30% increase in team productivity.
+                                <br/>
+                                - Integration with Jira and Squash™ using their APIs to automate issue detection and
+                                test tracking, which reduced the time spent fixing bugs by 35%.
+                                <br/>
+                                - Using Keycloak to ensure secure logins and centrally manage roles, completely
+                                protecting user access.
+                                <br/>
+                                - Creating a modern interface with Vue.js, delivering a smooth and fast experience, with
+                                a 40% improvement in speed and ease of use.
+                                <br/>
+                                - Integrating artificial intelligence modules with Ollama to detect hazards and
+                                anticipate problems, helping to reduce project delivery delays by 20% </p></div>
                     </div>
                     <div className="experienceLeaf">
-                    <div className="leafContent">
+                        <div className="leafContent">
+                            <h2>Software Engineering Internship: TUNEALGO</h2>
+                            <h4>JAN 2024 - JUL 2024</h4>
+                            <p>During this internship, I'm contributing to a mobile social networking app that allows
+                                users to share services and communicate easily. My work includes developing key features
+                                like profile creation, real-time messaging, and service posting, while using Spring Boot
+                                for the backend and Firebase for notifications. I'm also focused on creating a seamless
+                                cross-platform experience on Android and iOS with Ionic. This opportunity is enhancing
+                                my technical skills and knowledge of user-centered design. </p></div>
+                    </div>
+                    <div className="experienceLeaf">
+                        <div className="leafContent">
                             <h2>Software Engineering Internship: CSFAG</h2>
-                        <h4>Jun 2023 - Aug 2023</h4>
+                            <h4>Jun 2023 - Aug 2023</h4>
                             <p>
 
-                                During my internship at CSFAG, I contributed to developing a comprehensive training management application, focusing on an intuitive interface, user authentication, and automated certificate generation using JasperReports. I used Angular for the frontend, Spring Boot for the backend, and MySQL for data management. Our team achieved a 40% improvement in operational efficiency by simplifying attendance tracking. This experience enhanced my skills in web application development and project management in an Agile/Scrum environment.
+                                During my internship at CSFAG, I contributed to developing a comprehensive training
+                                management application, focusing on an intuitive interface, user authentication, and
+                                automated certificate generation using JasperReports. I used Angular for the frontend,
+                                Spring Boot for the backend, and MySQL for data management. Our team achieved a 40%
+                                improvement in operational efficiency by simplifying attendance tracking. This
+                                experience enhanced my skills in web application development and project management in
+                                an Agile/Scrum environment.
                             </p>
                         </div>
                     </div>
@@ -49,7 +86,12 @@ const Experience = () => {
                             <h2>Software Engineering Internship: Psexpress</h2>
                             <h4>Jun 2022 - Aug 2022</h4>
                             <p>
-                                I utilized HTML, CSS, and Bootstrap to create an attractive and responsive user interface for the application. This design approach ensured that the interface was visually appealing and user-friendly across various devices. Additionally, I developed features that allow users to add, update, and delete products seamlessly. These functionalities not only enhance user experience but also provide efficient management of product data within the application.</p>
+                                I utilized HTML, CSS, and Bootstrap to create an attractive and responsive user
+                                interface for the application. This design approach ensured that the interface was
+                                visually appealing and user-friendly across various devices. Additionally, I developed
+                                features that allow users to add, update, and delete products seamlessly. These
+                                functionalities not only enhance user experience but also provide efficient management
+                                of product data within the application.</p>
                         </div>
                     </div>
                     <div className="experienceLeaf">

@@ -23,6 +23,10 @@ import chat1 from '../../assets/ia/chat1.png';
 import chat2 from '../../assets/ia/chat2.png';
 import chat3 from '../../assets/ia/chat3.png';
 import chat4 from '../../assets/ia/chat4.png';
+import smartService from '../../assets/SmartService/smartService.png';
+import smartService1 from '../../assets/SmartService/smartService1.png';
+import smartService3 from '../../assets/SmartService/smartService3.png';
+
 import {FaGithub, FaImages, FaVideo} from "react-icons/fa"; // Import GitHub icon
 
 const Works = () => {
@@ -57,6 +61,11 @@ const Works = () => {
             images: [chat1, chat2, chat3, chat4], // Images of the third project
             description: "Developed a web application for AI-powered chat and user management with conversation history",
             githubLink: "https://github.com/souhir-fazzaini/Ollama_front" // Replace with your GitHub link
+        },
+        {
+            images: [smartService, smartService3, smartService1 ], // Images of the third project
+            description: "SmartService is a fullstack web application for online service booking, allowing users to discover, book, and review professional services.",
+            githubLink: "https://github.com/souhir-fazzaini/SmartService-AI-Platform_backend" // Replace with your GitHub link
         },
 
     ];

@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import './Education.css';
 import isimsLogo from '../../assets/isims.png';
+import logo_esen from '../../assets/logo_esen.png';
 
 const Education = () => {
     useEffect(() => {
@@ -43,7 +44,7 @@ const Education = () => {
                     <div className="experienceLeaf">
                         <div className="leafContent">
                             <div className="imageAndTitle">
-                                <img src={isimsLogo} alt="Bachelor's Degree in Computer Science Engineering"/>
+                                <img src={logo_esen} alt="Bachelor's Degree in Computer Science Engineering"/>
                                 <h2>Bachelor’s Degree in Management Computer Science</h2>
                             </div>
                             <h4>Higher School of Digital Economy of Manouba</h4> {/* Changed h3 to h1 */}
