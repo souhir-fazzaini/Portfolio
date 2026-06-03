@@ -71,7 +71,7 @@ const Works = () => {
         },
         {
             images: [login, page1, page2, page3], // Images of the third project
-            description: "Développement d'un blog avec espace administration sous Symfony 7, incluant : gestion des articles/catégories/commentaires avec Doctrine ORM, authentification utilisateur avec rôles (ROLE_ADMIN), interface admin EasyAdmin, architecture MVC",
+            description: "Development of a blog with an administration area using Symfony 7, including: management of articles/categories/comments with Doctrine ORM, user authentication with roles (ROLE_ADMIN), EasyAdmin admin interface, MVC architecture",
             githubLink: "https://github.com/souhir-fazzaini/Symfony-Blog-Platform" // Replace with your GitHub link
         },
 
