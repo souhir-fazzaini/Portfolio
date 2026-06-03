@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import './works.css';
-import Image0 from '../../assets/helpygo/logo.png';
-import Image1 from '../../assets/helpygo/Afficer liste des offres (4).png';
-import Image2 from '../../assets/helpygo/Ajouter une vente (4).png';
+
 import Image3 from '../../assets/CSFAG/capture.png';
 import Image4 from '../../assets/CSFAG/Screenshot 2024-08-12 000505.png';
 import csfag3 from '../../assets/CSFAG/Screenshot 2024-08-12 000601.png';
@@ -26,6 +24,10 @@ import chat4 from '../../assets/ia/chat4.png';
 import smartService from '../../assets/SmartService/smartService.png';
 import smartService1 from '../../assets/SmartService/smartService1.png';
 import smartService3 from '../../assets/SmartService/smartService3.png';
+import login from '../../assets/Blog_symfony/login.png';
+import page1 from '../../assets/Blog_symfony/page1.png';
+import page2 from '../../assets/Blog_symfony/page2.png';
+import page3 from '../../assets/Blog_symfony/page3.png';
 
 import {FaGithub, FaImages, FaVideo} from "react-icons/fa"; // Import GitHub icon
 
@@ -66,6 +68,11 @@ const Works = () => {
             images: [smartService, smartService3, smartService1 ], // Images of the third project
             description: "SmartService is a fullstack web application for online service booking, allowing users to discover, book, and review professional services.",
             githubLink: "https://github.com/souhir-fazzaini/SmartService-AI-Platform_backend" // Replace with your GitHub link
+        },
+        {
+            images: [login, page1, page2, page3], // Images of the third project
+            description: "Développement d'un blog avec espace administration sous Symfony 7, incluant : gestion des articles/catégories/commentaires avec Doctrine ORM, authentification utilisateur avec rôles (ROLE_ADMIN), interface admin EasyAdmin, architecture MVC",
+            githubLink: "https://github.com/souhir-fazzaini/Symfony-Blog-Platform" // Replace with your GitHub link
         },
 
     ];
