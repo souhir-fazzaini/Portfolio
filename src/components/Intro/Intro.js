@@ -11,9 +11,7 @@ const Intro = () => {
                     <span className="hello">Hello</span>
                     <span className="introText">I'm <span
                         className="introName">Souhir</span><br/>Software engineer</span>
-                    <a href={filePath} download>
-                        <button className="btn">Download CV</button>
-                    </a>
+
                 </div>
             </section>
         </div>
